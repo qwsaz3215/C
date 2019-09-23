@@ -1,0 +1,25 @@
+#include<stdio.h>   //匯入函式庫(io)
+#include<stdlib.h>  //匯入函式庫(lib)
+
+int main ( ){    //主函式(程式進入點)
+
+
+ printf("Hello world\n"); //列印出文字Hello world 並換行 
+system("pause");  //保留畫面
+return 0; //回傳值
+} // 主函式結束
+
+
+
+
+
+
+
+C++
+
+#include<iostream>
+int main(){
+
+std::cout <<"Hello World\n" ;
+return 0;
+}
