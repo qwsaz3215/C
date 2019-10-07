@@ -11,3 +11,38 @@ public class HelloWorld {
 
 } 
 --------------------------------------------------------------------------------------------------------------
+ 
+	public static void main(String[] args) { //主程式開始 beginning 
+		// TODO Auto-generated method stub
+		System.out.printf("Hello World\n"); //列印字串
+		printName();
+		printClass();
+		printNumber();
+		printHelloWorld4();
+		printHelloWorld5();
+	} //主涵式結束 end of main method
+
+
+
+
+	public static void printName( ) { //副涵式開始 beginning 
+	System.out.printf("郭哲綸\n"); 
+	}
+	
+	public static void printClass( ) { //副涵式開始 beginning 
+		System.out.printf("資工二B\n"); 
+	}
+		public static void printNumber( ) { //副涵式開始 beginning 
+			System.out.printf("4086E005\n"); 
+		}		
+			public static void printHelloWorld4( ) { //副涵式開始 beginning 
+				System.out.printf("Hello World4\n"); 
+			}//副涵式結束
+				public static void printHelloWorld5( ) { //副涵式開始 beginning 
+					System.out.printf("Hello World5\n"); 
+				}
+				
+}//類別結束
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
