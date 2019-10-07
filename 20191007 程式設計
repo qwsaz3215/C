@@ -1,0 +1,13 @@
+JAVA
+
+
+
+public class HelloWorld {
+
+	public static void main(String[] args) { //主程式開始 beginnin
+		// TODO Auto-generated method stub
+		System.out.printf("Hello World"); //列印字串
+	} //主涵式結束 end of main method
+
+} 
+--------------------------------------------------------------------------------------------------------------
