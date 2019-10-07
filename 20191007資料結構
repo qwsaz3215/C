@@ -54,3 +54,28 @@ int main(void)
   printf("\n");
   return 0 ;
 }
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+//T
+int tfact(int);
+
+#include<stdio.h>
+#include<stdlib.h>
+#include "Test1.h" //自行宣告函數 先新建檔案  宣告內容 ;""會在其他目錄搜尋 
+
+int main(void)
+{
+	int n, r;
+	
+	printf("請輸入n值:");
+	scanf("%d", &n);
+	r = tfact(n);
+	printf("%d!的值為%d", n,r);
+}
+
+ int tfact(int i)
+ {
+ 	if (i==0) return 1;
+ 	else return i*tfact(i-1);
+ }
