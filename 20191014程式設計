@@ -1,0 +1,152 @@
+import java.util.Scanner;
+public class someof2numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner (System.in);
+		System.out.printf("請輸入數字:") ;
+		int num11 = sc.nextInt();
+		System.out.printf ("請輸入數字2:"); 
+		int num12 = sc.nextInt();
+		printsomeoftwonumbers();
+		printsomeofthreenumbers();
+		printsomeoffournumbers();
+		printsomeoffivenumbers();
+		printsomeofsixnumbers();
+		printsomeofsevennumbers();
+		printsomeofeightnumbers();
+		printsomeofninenumbers();
+		printsomeoftennumbers();
+	}
+
+	private static void printf(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void  printsomeoftwonumbers() {
+		
+		int num1 = 10;
+		int num2 = 40;
+		int sum = num1 + num2 ;
+		System.out.printf("總和=%d\n", sum);
+	}
+
+	public static void  printsomeofthreenumbers() {
+		
+		int num1 = 10;
+		int num2 = 40;
+		int num3 = 90;
+		int sum = num1 + num2 + num3;
+		System.out.printf("總和=%d\n", sum);
+	}
+	
+	
+public static void  printsomeoffournumbers() {
+		
+	int num1 = 10;
+	int num2 = 40;
+	int num3 = 90;
+	int num4 = 100;
+	int sum = num1 + num2 + num3+ num4;
+		System.out.printf("總和=%d\n", sum);
+	}
+	
+public static void  printsomeoffivenumbers() {
+	
+	int num1 = 10;
+	int num2 = 40;
+	int num3 = 90;
+	int num4 = 100;
+	int num5 = 120;
+	int sum = num1 + num2 + num3+ num4 + num5;
+	System.out.printf("總和=%d\n", sum);
+}
+
+public static void  printsomeofsixnumbers() {
+	
+	int num1 = 10;
+	int num2 = 40;
+	int num3 = 90;
+	int num4 = 100;
+	int num5 = 120;
+	int num6 = 150;
+	int sum = num1 + num2 + num3+ num4 + num5 + num6;
+	System.out.printf("總和=%d\n", sum);
+}
+	
+public static void  printsomeofsevennumbers() {
+	
+	int num1 = 10;
+	int num2 = 40;
+	int num3 = 90;
+	int num4 = 100;
+	int num5 = 120;
+	int num6 = 150;
+	int num7 = 180;
+	int sum = num1 + num2 + num3+ num4 + num5 + num6 + num7;
+	System.out.printf("總和=%d\n", sum);
+}
+	
+public static void  printsomeofeightnumbers() {
+	
+	int num1 = 10;
+	int num2 = 40;
+	int num3 = 90;
+	int num4 = 100;
+	int num5 = 120;
+	int num6 = 150;
+	int num7 = 180;
+	int num8 = 200;
+	int sum = num1 + num2 + num3+ num4 + num5 + num6 + num7 + num8 ;
+	System.out.printf("總和=%d\n", sum);
+}
+	
+public static void  printsomeofninenumbers() {
+	
+	int num1 = 10;
+	int num2 = 40;
+	int num3 = 90;
+	int num4 = 100;
+	int num5 = 120;
+	int num6 = 150;
+	int num7 = 180;
+	int num8 = 200;
+	int num9 = 220;
+	int sum = num1 + num2 + num3+ num4 + num5 + num6 + num7 + num8 + num9;
+	System.out.printf("總和=%d\n", sum);
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static void  printsomeoftennumbers() {
+		
+		int num1 = 10;
+		int num2 = 40;
+		int num3 = 90;
+		int num4 = 100;
+		int num5 = 120;
+		int num6 = 150;
+		int num7 = 180;
+		int num8 = 200;
+		int num9 = 220;
+		int num10 = 250;
+		int sum = num1 + num2 + num3+ num4 + num5 + num6 + num7 + num8 + num9 + num10;
+		System.out.printf("總和=%d", sum);
+	}
+	
+	
+	
+	
+}
