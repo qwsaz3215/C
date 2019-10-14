@@ -21,3 +21,29 @@ int main (void)
  	else return tfact(i-1) + tfact(i-2);
  }
  -----------------------------------------------------------------------------------------------------------------------------------------
+1A2B
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
+
+void  RandNum(int X[5]){
+	for(int i=0; i<5; i++){
+		int m=0;
+		int n=1;
+		while(n==1){
+			n=0;
+			srand((unsigned)time(NULL));
+			m=rand()%10;
+			for(int j=0; j<i; j++){
+				if(m==X[j]) n=1;
+			} 
+		}
+		X[i]=m;
+	}
+	printf("%d", X[5]);
+	return 0;
+}
+
+
