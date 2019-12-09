@@ -10,7 +10,7 @@ struct list* Show(struct list*);
 
 struct list{
 	struct list* pri=NULL;
-	struct list* nest=NULL;
+	struct list* net=NULL;
 	int data;
 }; 
 static struct list* header;
